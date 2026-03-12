@@ -55,3 +55,34 @@
 .tabs .tabs-panel[aria-hidden='true'] {
   display: none;
 }
+
+
+.tab-image {
+  max-width: 1140px;
+    margin: 40px auto !important;
+    display: flex;
+    column-gap: 30px;
+}
+.tab-image .tabs-wrapper{
+  max-width: 100%;
+  padding: 0;
+}
+.tab-image .default-content-wrapper{
+  max-width: 100%;
+  padding: 0;
+}
+.tab-image .tabs-wrapper .tabs{
+  display: flex;
+}
+.tab-image .tabs-wrapper .tabs .tabs-list{
+  flex-direction: column;
+  min-width: 200px;
+}
+.tab-image .tabs-wrapper .tabs .tabs-panel{
+  border: none;
+}
+.tab-image .tabs-wrapper .tabs .tabs-list button{
+  background: #eb1933;
+  color: #fff;
+  border: none;
+}

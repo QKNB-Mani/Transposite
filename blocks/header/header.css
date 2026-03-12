@@ -270,3 +270,25 @@ header nav .nav-sections ul > li > ul > li {
 header nav .nav-tools {
   grid-area: tools;
 }
+
+header nav {
+  padding: 0 12px;
+  font-family: 'Rajdhani', sans-serif;
+}
+header nav .nav-sections{
+  flex: none;
+}
+header nav .nav-sections ul .button.primary{
+  background: #eb1933;
+  border-radius: 5px;
+  border: #eb1933;
+}
+
+@media (width >= 900px) {
+  header nav .nav-sections ul{
+    align-items: center;
+  }
+  header nav .nav-sections .nav-drop::after{
+    top: 0.2em;
+  }
+}

@@ -235,3 +235,39 @@
     width: max-content;
   }
 }
+
+.enquiry{
+  max-width: 1140px;
+  margin: 40px auto !important;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-column-gap: 20px;
+}
+.enquiry .default-content-wrapper h4{ 
+  color: #eb1933;
+}
+.enquiry .video-wrapper{
+  grid-column: 2;
+  grid-row: 1 / span 2;
+}
+
+.enquiry .default-content-wrapper{
+  padding: 30px;
+  width: 90%;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+.enquiry .form-wrapper{
+  padding: 30px;
+  position: relative;
+  width: 90%;
+  margin-top: -10px;
+  box-shadow: 0px 7px 10px 0px rgba(0, 0, 0, 0.1);
+  background: #fff;
+  
+}
+.enquiry .video-wrapper{
+  width: 90%;
+}
+
+

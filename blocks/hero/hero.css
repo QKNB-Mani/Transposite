@@ -35,3 +35,25 @@
     padding: 40px 32px;
   }
 }
+
+.discovery div {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  column-gap: 150px;
+  align-items: center;
+}
+.discovery strong{
+  font-size: 45px;
+  color: #fff;
+}
+.discovery .button.primary{
+  background: #eb1933;
+  border: #eb1933;
+}
+.discovery img{
+  height: auto;
+}
+.discovery {
+  min-height: auto;
+}
