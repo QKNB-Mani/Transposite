@@ -113,6 +113,14 @@ function toggleMenu(nav, navSections, forceExpanded = null) {
  * @param {Element} block The header block element
  */
 export default async function decorate(block) {
+  // load topheader as fragment
+  const topMeta = getMetadata('top-header');
+  const topPath = topMeta ? new URL(topMeta, window.location).pathname : '/top-header';
+  const topFragment = await loadFragment(topPath);
+  const topHeader = document.createElement('div');
+  topHeader.className = 'top-header';
+  while (topFragment.firstElementChild) topHeader.append(topFragment.firstElementChild);
+
   // load nav as fragment
   const navMeta = getMetadata('nav');
   const navPath = navMeta ? new URL(navMeta, window.location).pathname : '/nav';
@@ -167,5 +175,6 @@ export default async function decorate(block) {
   const navWrapper = document.createElement('div');
   navWrapper.className = 'nav-wrapper';
   navWrapper.append(nav);
+  block.append(topHeader);
   block.append(navWrapper);
 }
