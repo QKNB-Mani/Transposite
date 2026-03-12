@@ -158,18 +158,22 @@
   padding: 0;
   max-width: 100%;
 }
+
 .banner-carousel .carousel .carousel-slide .carousel-slide-content{
   background: none;
 }
+
 .banner-carousel .carousel .carousel-slide .carousel-slide-content ul{
   list-style: none;
   padding: 0;
   display: flex;
   column-gap: 20px;
 }
+
 .banner-carousel .carousel .carousel-slide .carousel-slide-content ul li{
   color: #fff;
 }
+
 .banner-carousel .carousel .carousel-slide .carousel-slide-content ul li a{
   color: #fff;
   background: #eb1933;
@@ -178,20 +182,24 @@
     padding: 10px;
     font-weight: 500;
 }
+
 .banner-carousel .carousel .carousel-navigation-buttons button{
   background: none;
   border: none;
   border-radius: 0;
   cursor: pointer;
 }
+
 .banner-carousel .carousel .carousel-navigation-buttons button:hover{
   background: #fff;
 }
+
 .banner-carousel .carousel .carousel-navigation-buttons button::after{
   color: #eb1933;
   width: 18px;
     height: 18px;
 }
+
 .carousel .carousel-slide-indicators{
   display: none;
 }
@@ -200,6 +208,7 @@
   flex: 0 0 30%;
   max-height: 350px;
 }
+
 .multicarousel .carousel-slide-content{
   opacity: 0;
 }
@@ -208,26 +217,32 @@
 .customer-review .carousel-wrapper{
   max-width: 1140px;
 }
+
 .customer-review .default-content-wrapper p{
   color: #eb1933;
 }
+
 .customer-review  .carousel-slide .carousel-slide-image picture{
   position: relative;
 }
+
 .customer-review .carousel-slide{
   flex: 0 0 33.33%;
 }
+
 .customer-review .carousel-slide-image{
   margin: 20px;
   box-shadow: 0px 3px 20px 0px rgba(0, 0, 0, 0.1);
   padding: 20px 15px;
   text-align: center;
 }
+
 .customer-review .carousel-slide-image img{
   width: auto !important;
   display: block;
   margin: 0 auto;
 }
+
 .customer-review .carousel .carousel-slides{
   margin: 0 -20px;
 }

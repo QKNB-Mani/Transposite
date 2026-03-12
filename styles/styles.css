@@ -328,21 +328,25 @@ main .section.highlight {
 .marquee{
   background: #eb1933;
 }
+
 .marquee .columns > div{
   position: relative;
   gap: 0px;
   display: flex;
   overflow: hidden;
 }
+
 .marquee .columns-wrapper{
   max-width: 100%;
   padding: 0;
 }
+
 .marquee .columns > div > div h2{
   font-size: 40px;
   margin: 30px 0;
   color: #fff;
 }
+
 .marquee .columns > div > div{
   flex-shrink: 0;
   display: flex;
@@ -351,6 +355,7 @@ main .section.highlight {
   min-width: 100%;
   animation: txmarset 15s linear infinite;
 }
+
 @keyframes txmarset {
   0% {
     transform: translateX(0);
