@@ -29,7 +29,11 @@
 
 .choose-us .cards-wrapper,
 .service-provider .default-content-wrapper,
-.service-provider .cards-wrapper{
+.service-provider .cards-wrapper,
+.pricings .default-content-wrapper,
+.pricings .cards-wrapper,
+.last-cards .default-content-wrapper,
+.last-cards .cards-wrapper{
   max-width: 1140px;
 }
 
@@ -85,4 +89,20 @@
 .service-provider .cards .cards-card-body{
   margin:16px 0 0 0;
 }
+
+.pricings .default-content-wrapper{
+  text-align: center;
+}
+
+.pricings .default-content-wrapper h4,
+.last-cards .default-content-wrapper h4{
+  color: #eb1933;
+}
+
+.pricings .cards-wrapper ul, 
+.last-cards .cards-wrapper ul{
+  grid-template-columns: repeat(auto-fill, minmax(275px, 1fr));
+}
+
+
 
