@@ -246,3 +246,25 @@
 .customer-review .carousel .carousel-slides{
   margin: 0 -20px;
 }
+
+.brand-image .carousel-wrapper{
+  max-width: 1140px;
+}
+
+.brand-image .carousel-slide{
+  flex: 0 0 20%;
+  align-items: center;
+}
+
+.brand-image .carousel-slide picture{
+  position: relative !important;
+}
+
+.brand-image .carousel-slide img{
+  width: auto !important;
+  height: auto !important;
+}
+
+.brand-image .carousel-slide .carousel-slide-content{
+  display: none;
+}

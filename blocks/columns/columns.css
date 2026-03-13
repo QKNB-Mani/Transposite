@@ -34,7 +34,8 @@
 
 
 .transports .columns-wrapper,
-.star-ratings .columns-wrapper{
+.star-ratings .columns-wrapper,
+.sample-act .columns-wrapper{
   max-width: 1140px;
 }
 
@@ -98,3 +99,54 @@
   color: #eb1933;
   font-weight: normal;
 }
+
+.expert-team .default-content-wrapper,
+.expert-team .columns-wrapper{
+  text-align: center;
+  max-width: 1140px;
+}
+
+.expert-team .columns > div > div{
+  position: relative;
+  transition: .5s;
+  overflow: hidden;
+}
+
+.expert-team .columns > div > div > p{
+  margin: 0;
+}
+
+.expert-team .columns > div > div ul{
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.sample-act .columns > div > div > p:first-child{
+  color: #eb1933;
+}
+
+.sample-act table{
+  text-align: center;
+}
+
+.sample-act table td p:first-child{
+  position: relative;
+}
+
+.sample-act table td img{
+  width: auto;
+}
+
+.sample-act table td p:first-child strong{
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+

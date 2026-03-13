@@ -43,17 +43,44 @@
   column-gap: 150px;
   align-items: center;
 }
+
 .discovery strong{
   font-size: 45px;
   color: #fff;
 }
+
 .discovery .button.primary{
   background: #eb1933;
   border: #eb1933;
 }
+
 .discovery img{
   height: auto;
 }
+
 .discovery {
   min-height: auto;
+}
+
+.faq-section div{
+  text-align: center;
+  color: #fff;
+}
+
+.faq-section ul{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  column-gap: 15px;
+  margin-top: 20px;
+}
+
+.faq-section ul a{
+  color: #fff;
+  background: #eb1933;
+  padding: 10px 20px;
+  border-radius: 30px;
 }

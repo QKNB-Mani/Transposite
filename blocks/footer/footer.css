@@ -18,3 +18,40 @@ footer .footer p {
     padding: 40px 32px 24px;
   }
 }
+
+.footer-wrapper{
+  background: #000;
+}
+
+.footer-wrapper *{
+  color: #fff;
+}
+
+.quick-link > div > div:last-child p{
+  display: inline-block;
+    width: 32%;
+}
+
+.quick-link > div > div:last-child p img{
+  height: 50px;
+}
+
+.quick-link > div > div:first-child p img{
+  width: auto;
+}
+
+.copyright{
+  font-size: 20px;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+
+.copyright ul{
+  text-align: right;
+    display: flex;
+    margin: 0;
+    justify-content: end;
+    padding: 0;
+    column-gap: 20px;
+    list-style: none;
+}
